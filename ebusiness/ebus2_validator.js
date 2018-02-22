@@ -11,7 +11,7 @@ function validateDetails(){
     if (name==""){
         alert("Please enter your name");
         }
-    else if (String(pin).length<5){
+    else if (String(name).length<5){
         alert("Please make sure you enter your full name");
         }
     else{
@@ -42,3 +42,4 @@ function enablebtnPurchase(){
 function disablebtnPurchase(){
      $('#btnPurchase').prop('disabled',true);
 }
+

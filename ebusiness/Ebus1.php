@@ -41,8 +41,8 @@ li a:hover:not(.active) {
 
 <ul>
   <li><a class="active" href="../homepage.html">Home</a></li>
-  <li><a href="cv/cv_page1.html">CV</a></li>
-  <li><a href="interests/sports.html">Interests</a></a></li>
+  <li><a href="../cv/cv_page1.html">CV</a></li>
+  <li><a href="../interests/sports.html">Interests</a></a></li>
   <li><a href="ebusiness/Ebus1.php">E-Business</a></li>
 </ul>
 
@@ -99,8 +99,22 @@ li a:hover:not(.active) {
             
             <br/>
             
+            <label for="discount">
+                Discount @ 5%
+                <input type="text" id="discount" value="0.00" readonly/>
+            </label>
+            
+            <br/>
+            
+            <label for="vat">
+                VAT @ 10%
+                <input type="text" id="vat" value="0.00" readonly/>
+            </label>
+            
+            <br/>
+            
             <label for="total">
-                Total
+                Total (- Discount, + VAT)
                 <input type="text" id="total" name="total" value="0.00" readonly/>
             </label>
         

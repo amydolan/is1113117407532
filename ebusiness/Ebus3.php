@@ -44,8 +44,8 @@ li a:hover:not(.active) {
 
 <ul>
   <li><a class="active" href="../homepage.html">Home</a></li>
-  <li><a href="cv/cv_page1.html">CV</a></li>
-  <li><a href="interests/sports.html">Interests</a></a></li>
+  <li><a href="../cv/cv_page1.html">CV</a></li>
+  <li><a href="../interests/sports.html">Interests</a></a></li>
   <li><a href="ebusiness/Ebus1.php">E-Business</a></li>
 </ul>
 
