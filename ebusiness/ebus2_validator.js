@@ -35,6 +35,22 @@ function validateDetails(){
         }
 }
 
+    //validating user email details
+    
+      var email;
+    
+    email = document.getElementById("user_email").value;
+    
+    if (email==""){
+        alert("Please enter your email");
+        }
+    else if (String(email).length<6){
+        alert("Please make sure you enter your complete email");
+        }
+    else{
+        enablebtnPurchase();
+        }
+
 function enablebtnPurchase(){
      $('#btnPurchase').prop('disabled',false);
 }
