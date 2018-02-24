@@ -33,9 +33,9 @@ function calcSub(){
        
        SubTotal = parmSubTotal;
        
-       vatAmt = parmSubTotal * 0.1;
+       discountAmt = parmSubTotal * 0.05;
        
-       discountAmt = (SubTotal + vatAmt) * 0.05;
+       vatAmt = (SubTotal - discountAmt) * 0.1;
        
        totalAmt = (SubTotal + vatAmt) - discountAmt;
        

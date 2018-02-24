@@ -64,6 +64,7 @@ session_start();
             <br />
             
             <button onClick="validateDetails()"> Validate </button>
+            <a role="button" href="Ebus2.php">Clear Details</a>
             
             <script type="text/javascript" src="ebus2_validator.js"></script>
             
