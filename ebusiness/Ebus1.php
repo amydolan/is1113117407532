@@ -94,7 +94,7 @@ Select Product
         
         <br/>
         <button onClick="calcSub()">Calculate Cost</button>
-        <a role="button" href="Ebus1.php">Clear Choice</a>
+        <button type="reset" href="Ebus1.php">Clear Choice</button>
        
         </div>
         

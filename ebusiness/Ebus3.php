@@ -1,4 +1,5 @@
 <?php
+//Start the Session
 session_start();
 ?>
 <!DOCTYPE html>
@@ -55,9 +56,16 @@ li a:hover:not(.active) {
     <body>
         <h4>RECEIPT</h4>
         
+        
         <?php
-        //Echo session variables that were set on previus page
-        echo "Total is " . $_SESSION["total"] . ".";
+            //Set session variables
+            $_SESSION["user_name"] = $_POST["name"];
+            ?>
+        
+        <?php
+        //Echo session variables that were set on previous page
+        echo "Total Price: " . $_SESSION["total"] . ". ";
+        echo "Thank you, " . $_SESSION["user_name"] . " !";
         ?>
         </div>
     </body>

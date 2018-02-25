@@ -3,9 +3,16 @@
     text-align: center 
 }
 
-/*Menu Bar for my pages*/
-body {margin:0;}
+  
+/*Font size and style for my pages*/
 
+body {margin:0;
+      font: 20px Montserrat, sans-serif;
+      line-height: 1.8;
+}
+
+
+/*Menu Bar for my pages*/
 ul {
     list-style-type: none;
     margin: 0;

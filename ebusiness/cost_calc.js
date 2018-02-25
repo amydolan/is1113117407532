@@ -1,8 +1,11 @@
 /* global $ */
 
+//Function to calculate my subtotal
 function calcSub(){
     
     var argSubTotal;
+    
+    //If statement for use of radio buttons for product selection
     
     if(document.getElementById('salesforce').checked){
       argSubTotal = 100;
@@ -43,7 +46,6 @@ function calcSub(){
    }
    
    
-  
     function display(parm1, parm2, parm3, parm4){
         
         document.getElementById("subtotal").value = parm1;
