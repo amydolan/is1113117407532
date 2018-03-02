@@ -5,7 +5,8 @@
 Select Product
 <title>Select Product</title>
 </head>
-<body>
+<body background="desk.jpeg">
+    
 
 <ul>
   <li><a class="active" href="../homepage.html">Home</a></li>
@@ -25,76 +26,76 @@ Select Product
     
     <body>
         
-        <h4>Select a Product</h4>
+        <center><h4>Select a Product</h4></center>
         
         <br/>
         
         <form method ="POST" action ="Ebus2.php">
             
-            <label for="salesforce">
+            <center><label for="salesforce">
                 <input type ="radio" id="salesforce" name="product" checked onClick="disablebtnProceed()"/>
                 SalesForce @ $100
-            </label>
+            </label></center>
             
             <br/>
             
-             <label for="c9">
+             <center><label for="c9">
                 <input type ="radio" id="c9" name="product" checked onClick="disablebtnProceed()"/>
                 Cloud 9 @ $200
-            </label>
+            </label></center>
             
             </br>
             
-            <label for="aws">
+            <center><label for="aws">
                 <input type ="radio" id="aws" name="product" onClick="disablebtnProceed()"/>
                 AWS @ $300 
-            </label>
+            </label></center>
             
             </br>
             
-            <label for="gmail">
+            <center><label for="gmail">
                 <input type ="radio" id="gmail" name="product" checked onClick="disablebtnProceed()"/>
                 Gmail @ $400
-            </label>
+            </label></center>
             
             <br/>
             <br/>
             
-            <label for="subtotal">
+            <center><label for="subtotal">
                 Sub Total
                 <input type="text" id="subtotal" value="0.00" readonly/>
-            </label>
+            </label></center>
             
             <br/>
             
-            <label for="discount">
+            <center><label for="discount">
                 Discount @ 5%
                 <input type="text" id="discount" value="0.00" readonly/>
-            </label>
+            </label></center>
             
             <br/>
             
-            <label for="vat">
+            <center><label for="vat">
                 VAT @ 10%
                 <input type="text" id="vat" value="0.00" readonly/>
-            </label>
+            </label></center>
             
             <br/>
             
-            <label for="total">
+            <center><label for="total">
                 Total (- Discount, + VAT)
                 <input type="text" id="total" name="total" value="0.00" readonly/>
-            </label>
+            </label></center>
         
             <br/>
             
-            <button type ="submit" id="btnProceed" disabled>Add to Shopping Cart</button>
+            <center><button type ="submit" id="btnProceed" disabled>Add to Shopping Cart</button></center>
             
         </form>
         
         <br/>
-        <button onClick="calcSub()">Calculate Cost</button>
-        <button type="reset" href="Ebus1.php">Clear Choice</button>
+        <center><button onClick="calcSub()">Calculate Cost</button></center>
+        <center><button type="reset" href="Ebus1.php">Clear Choice</button></center>
        
     </body>
     

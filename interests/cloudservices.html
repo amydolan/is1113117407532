@@ -1,33 +1,42 @@
 <!DOCTYPE html>
 <html>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<head>
-    <title>Cloud Services</title>
-Cloud Services
-</head>
-<body>
-
-<ul>
-  <li><a class="active" href="../homepage.html">Home</a></li>
-  <li><a href="../cv/cv_page1.html">CV</a></li>
-  <li><a href="sports.html">Interests</a></a></li>
-  <li><a href="../ebusiness/shophome.html">E-Business Homepage</a></li>
-</ul>
-
+<meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <head>
+        <meta charset="utf-8"/>
+        <title>Sports & Music</title>
         <link rel="stylesheet" href="../mystylesheet.css" type="text/css" />
-    
+        <link rel="stylesheet" href="int_pages.css" type="text/css" />
+        
+        
         <!--JQuery-->
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+        
+        <!--pagepiling-->
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/pagePiling.js/1.5.4/jquery.pagepiling.css" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pagePiling.js/1.5.4/jquery.pagepiling.js"></script>
+        
+        <script type = "text/javascript">
+             $(document).ready(function() {
+               $('#pagepiling').pagepiling({
+                });
+             });
+        </script>
+    
     </head>
     <body>
-        <h1 class="mainheading">Cloud Services</h1>
         
-        <p><strong>Favourite Genre:</strong> Classical</p>
-        <p><strong>Favourite Intrument:</strong> Violin</p>
-        
-        <a href="travel.html" class="btn btn-dark">Next</a>
-       
+        <div id="pagepiling">
+            <div class="section" id="section1">My favourite sport is, without a doubt, swimming. It's a wonderful individual sport that can also incorportate a wonderful sense of team spirit when it comes to relays and training together. I train a lot less frequently nowadays as I have to devote more and more time to my music studies but I still aim to swim once a week.</div>
+        	<div class="section" id="section2">Want to visit: Vienna, Austria</div>
+        	<div class="section" id="section3">Settle in: Cork, Ireland
+        	    <br/>
+        	    <a href="../homepage.html">Home</a>
+        	    <a href="cloudservices.html">Cloud Services</a>
+        	    <a href="travel.html">Travel</a>
+        	</div>
+        </div> 
     </body>
-</html> 
+</html>

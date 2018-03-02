@@ -41,7 +41,7 @@ li a:hover:not(.active) {
 }
 </style>
 </head>
-<body>
+<body background ="receipt.jpg">
 
 <ul>
   <li><a class="active" href="../homepage.html">Home</a></li>

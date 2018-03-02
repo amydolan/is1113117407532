@@ -1,34 +1,58 @@
 <!DOCTYPE html>
-<html>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<head>
-    <title>Sports</title>
-Sports
-</head>
-<body>
-
-<ul>
-  <li><a class="active" href="../homepage.html">Home</a></li>
-  <li><a href="../cv/cv_page1.html">CV</a></li>
-  <li><a href="sports.html">Interests</a></a></li>
-  <li><a href="../ebusiness/shophome.html">E-Business Homepage</a></li>
-</ul>
-
-
+<html lang="en">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <head>
+        <meta charset="utf-8"/>
+        <title>Sports & Music</title>
         <link rel="stylesheet" href="../mystylesheet.css" type="text/css" />
-    
+        <link rel="stylesheet" href="int_pages.css" type="text/css" />
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        
+        
         <!--JQuery-->
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+        
+        <!--pagepiling-->
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/pagePiling.js/1.5.4/jquery.pagepiling.css" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pagePiling.js/1.5.4/jquery.pagepiling.js"></script>
+        
+        <script type = "text/javascript">
+             $(document).ready(function() {
+               $('#pagepiling').pagepiling({
+                });
+             });
+        </script>
+    
     </head>
     <body>
-        <h1 class="mainheading">Sports</h1>
         
-        <p><strong>Favourite Sport:</strong> Swimming</p>
-        <p><strong>Training:</strong> Weekly</p>
-        
-        <a href="music.html" class="btn btn-dark">Next</a>
-
+        <div id="pagepiling">
+            
+            <!--Swimming-->
+            <div class="section" id="section1"><center><h1>Swimming</h1></br></center>
+            My favourite sport is, without a doubt, swimming. It's a wonderful individual sport that can also incorportate a great sense of team spirit when it 
+            comes to relays and training together. I train a lot less frequently nowadays as I have to devote more and more time to my music studies but I still aim to swim once a week.</div>
+            
+            <!--Music-->
+        	<div class="section" id="section2"><center><h1>Music</h1><iframe width="560" height="315" src="https://www.youtube.com/embed/EFWanu8h17o?rel=0&amp;start=180" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></center>
+        	<br/>
+        	Music is my real passion. I play the violin and have done so for the past 14 years. I've been fortunate enough to play with the Cork Symphony Orchestra, the National Youth Orchestra of Ireland and Cork Youth
+        	Orchestra. I've included a video of a music video CYO made with the band Seo Linn. I can even be spotted in the video a couple of times (keep a close eye at the 3 minute mark!)</div>
+        	
+        	<!--More Music...-->
+        	<div class="section" id="section3"><centre><h1>More Music...</h1><img src="quartet.jpg" alt="School Quartet"></centre>
+        	<br/>
+        	I have a huge passion for chamber music and the picture above shows me with my fellow quartet members when we were in secondary school. I completed my Grade 8 exam in 2016 with a mark of 94 
+        	and I am currently studying for a music diploma in violin performance.
+        	    <br/>
+        	    <br/>
+        	    <a href="../homepage.html" class="w3-button w3-black">Home</a>
+        	    <a href="cloudservices.html" class="w3-button w3-black">Cloud Services</a>
+        	    <a href="travel.html" class="w3-button w3-black">Travel</a>
+        	</div>
+        </div> 
     </body>
-</html> 
+</html>

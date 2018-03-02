@@ -7,9 +7,9 @@ session_start();
 <html>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <head>Enter Details
- <title> Enter Details</title>
+<title> Enter Details</title>
 </head>
-<body>
+<body background="desk.jpeg">
 
 <ul>
   <li><a class="active" href="../homepage.html">Home</a></li>
@@ -26,44 +26,43 @@ session_start();
     
     <body>
         
-        <h4>Please enter your payment details.</h4>
+        <center><h4>Please enter your payment details below</h4></center>
         
-            <br />
+            <br/>
             
             <form method = "POST" action = "Ebus3.php">
                 
-                <label for="user_name">
+                <center><label for="user_name">
                      Name:
                 </label>
                 
-                <input type="text" id="user_name" placeholder="Joe Bloggs" maxlength="30">
+                <input type="text" id="user_name" placeholder="Joe Bloggs" maxlength="30"></center>
                 
                 <br/>
                 
-                <label for="user_email">
+                <center><label for="user_email">
                      Email:
                 </label>
                 
-                <input type="email" id="user_email" placeholder="joebloggs@ucc.ie">
+                <input type="email" id="user_email" placeholder="joebloggs@ucc.ie"></center>
                 
                 <br/>
-                
-                <label for="user_pin">
+            
+                <center><label for="user_pin">
                      PIN:
                 </label>
                 
-                <input type="password" id="user_pin" placeholder="****" maxlength="4">
+                <input type="password" id="user_pin" placeholder="****" maxlength="4"></center>
                     
-                <button type="Submit" id="btnPurchase" disabled> 
+                <center><button type="Submit" id="btnPurchase" disabled> 
                     Proceed with Purchase 
-                </button>
+                </button></center>
                 
             </form>
             
             <br />
             
-            <button onClick="validateDetails()"> Validate </button>
-            <a role="button" href="Ebus2.php">Clear Details</a>
+            <center><button onClick="validateDetails()"> Validate </button></center>
             
             <script type="text/javascript" src="ebus2_validator.js"></script>
             
