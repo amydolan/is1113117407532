@@ -4,23 +4,28 @@
 function calcSub(){
     
     var argSubTotal;
+
     
     //If statement for use of radio buttons for product selection
     
     if(document.getElementById('salesforce').checked){
       argSubTotal = 100;
+   
     }
     
     else if(document.getElementById('gmail').checked){
         argSubTotal = 400;
+      
     }
     
     else if(document.getElementById('c9').checked){
         argSubTotal = 200;
+  
     }
     
     else{
         argSubTotal = 300;
+
     }
 
     display(argSubTotal);

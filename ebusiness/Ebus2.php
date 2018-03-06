@@ -28,6 +28,7 @@ session_start();
         
         <center><h4>Please enter your payment details below</h4></center>
         
+        <form method ="POST" action ="Ebus3.php">
             <br/>
             
             <form method = "POST" action = "Ebus3.php">
@@ -36,7 +37,7 @@ session_start();
                      Name:
                 </label>
                 
-                <input type="text" id="user_name" placeholder="Joe Bloggs" maxlength="30"></center>
+                <input type="text" id="user_name" name="user_name" placeholder="Joe Bloggs" maxlength="30"></center>
                 
                 <br/>
                 
@@ -67,9 +68,15 @@ session_start();
             <script type="text/javascript" src="ebus2_validator.js"></script>
             
             <?php
-            //Set session variables
-            $_SESSION["total"] = $_POST["total"];
-            ?>
+        //Set session variables
+        $_SESSION["subtotal"] = $_POST["subtotal"];
+        $_SESSION["vat"] = $_POST["vat"];
+        $_SESSION["discount"] = $_POST["discount"];
+        $_SESSION["total"] = $_POST["total"];
+        $_SESSION["item"] = $_POST["item"];
+        $_SESSION["user_name"] = $_POST["user_name"]
+        ?>
+            
             
     </body>
 </html>

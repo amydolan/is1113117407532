@@ -48,6 +48,8 @@ function validateDetails(){
     else{
         enablebtnPurchase();
         }
+        
+        //Functions to allow the user to move on after details have been validated
 
 function enablebtnPurchase(){
      $('#btnPurchase').prop('disabled',false);

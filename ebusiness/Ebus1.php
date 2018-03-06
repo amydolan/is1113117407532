@@ -1,3 +1,7 @@
+<?php
+//Start the session
+session_start();
+?>
 <!DOCTYPE html>
 <html>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -36,50 +40,50 @@
             
             <center><label for="salesforce">
                 <input type ="radio" id="salesforce" name="product" checked onClick="disablebtnProceed()"/>
-                SalesForce @ $100
+                 SalesForce @ &euro;100
             </label></center>
             
             <br/>
             
              <center><label for="c9">
                 <input type ="radio" id="c9" name="product" checked onClick="disablebtnProceed()"/>
-                Cloud 9 @ $200
+                 Cloud 9 @ &euro;200
             </label></center>
             
             </br>
             
             <center><label for="aws">
                 <input type ="radio" id="aws" name="product" onClick="disablebtnProceed()"/>
-                AWS @ $300 
+                 AWS @ &euro;300 
             </label></center>
             
             </br>
             
             <center><label for="gmail">
                 <input type ="radio" id="gmail" name="product" checked onClick="disablebtnProceed()"/>
-                Gmail @ $400
+                 Gmail @ &euro;400
             </label></center>
             
             <br/>
             <br/>
-            
+
             <center><label for="subtotal">
                 Sub Total
-                <input type="text" id="subtotal" value="0.00" readonly/>
+                <input type="text" id="subtotal" name="subtotal" value="0.00" readonly/>
             </label></center>
             
             <br/>
             
             <center><label for="discount">
                 Discount @ 5%
-                <input type="text" id="discount" value="0.00" readonly/>
+                <input type="text" id="discount" name="discount" value="0.00" readonly/>
             </label></center>
             
             <br/>
             
             <center><label for="vat">
                 VAT @ 10%
-                <input type="text" id="vat" value="0.00" readonly/>
+                <input type="text" id="vat" name="vat" value="0.00" readonly/>
             </label></center>
             
             <br/>
@@ -97,7 +101,7 @@
         
         <br/>
         <center><button onClick="calcSub()" class="w3-button w3-yellow">Calculate Cost</button></center>
-        <center><button class="" href="Ebus1.php">Clear Choice</button></center>
+        <center><a role ="button" href="Ebus1.php">Clear Choice</center>
        
     </body>
     

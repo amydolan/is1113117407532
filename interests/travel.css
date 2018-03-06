@@ -1,0 +1,22 @@
+#section1{
+    background-image: url("portland.jpg");
+    background-repeat: no-repeat;
+    width:100%;
+}
+
+#section2{
+    background-image: url("vienna.jpg");
+    background-repeat: no-repeat;
+    width:100%;
+}
+
+#section3{
+    background-image: url("cork.jpg");
+    background-repeat: no-repeat;
+    width:100%;
+}
+
+.section{
+    text-align: center;
+    color: white;
+}

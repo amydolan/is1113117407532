@@ -6,6 +6,7 @@ session_start();
 <html>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <head>
+       <title>Receipt</title>
 <style>
 body {margin:0;}
 
@@ -49,23 +50,39 @@ li a:hover:not(.active) {
   <li><a href="../interests/sports.html">Interests</a></a></li>
   <li><a href="shophome.html">E-Business Homepage</a></li>
 </ul>
+        
+        <div id="receipt" style="text-align:center">
+            <br/>
+            <br/>
+            <h2>Receipt</h2>
+            
+            <br/>
+            <br/>
+        
+      <?php
+            //Echo session variables that were set on previous page
+            echo "Thank you, " . $_SESSION["user_name"]; ?>
+            <br/>
+            <?php echo "Product Purchased:" . $_SESSION["item"]; ?>
+            <br/>
+            <?php echo "Subtotal: &euro;". $_SESSION["subtotal"]; ?>
+            <br/>
+            <?php echo "Discount: &euro;". $_SESSION["discount"]; ?>
+            <br/>
+            <?php echo "VAT: &euro; ". $_SESSION["vat"]; ?>
+            <br/>
+            <?php echo "Total: &euro;". $_SESSION["total"] . "."; ?>
+            
+            <br/>
+            <br/>
+            <button onclick="printReceipt()">Print receipt</button>
 
-        <title>RECEIPT</title>
-    </head>
-    <body>
-        <h4>RECEIPT</h4>
-        
-        
-        <?php
-            //Set session variables
-            $_SESSION["user_name"] = $_POST["name"];
-            ?>
-        
-        <?php
-        //Echo session variables that were set on previous page
-        echo "Total Price: " . $_SESSION["total"] . ". ";
-        echo "Thank you, " . $_SESSION["user_name"] . " !";
-        ?>
+            <script>
+            function printReceipt() {
+            window.print();
+            }
+            </script>
+            </div>
      
     </body>
 </html>
