@@ -71,7 +71,5 @@ session_start();
             $_SESSION["total"] = $_POST["total"];
             ?>
             
-      
-        
     </body>
 </html>

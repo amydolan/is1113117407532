@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<head>
-Select Product
+<head></br>
+    Select Product
+
 <title>Select Product</title>
 </head>
 <body background="desk.jpeg">
@@ -17,6 +18,7 @@ Select Product
 
 
     <link rel="stylesheet" href="../mystylesheet.css" type="text/css" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
         
         <!--jQuery-->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -25,8 +27,8 @@ Select Product
     </head>
     
     <body>
-        
-        <center><h4>Select a Product</h4></center>
+        </br>
+        <center><h3>Select a Product</h3></center>
         
         <br/>
         
@@ -89,13 +91,13 @@ Select Product
         
             <br/>
             
-            <center><button type ="submit" id="btnProceed" disabled>Add to Shopping Cart</button></center>
+            <center><button type ="submit" class="w3-button w3-green" id="btnProceed" disabled>Add to Shopping Cart</button></center>
             
         </form>
         
         <br/>
-        <center><button onClick="calcSub()">Calculate Cost</button></center>
-        <center><button type="reset" href="Ebus1.php">Clear Choice</button></center>
+        <center><button onClick="calcSub()" class="w3-button w3-yellow">Calculate Cost</button></center>
+        <center><button class="" href="Ebus1.php">Clear Choice</button></center>
        
     </body>
     
