@@ -1,18 +1,7 @@
-#section1{
-    background-color: rgb(9, 122, 24);
-}
-
-#section2{
-    background-color: rgb(101, 153, 255);
-}
-
-#section3{
-    background-color: rgb(255, 153, 0);
-}
-
-.section{
-    text-align: center;
-    color: white;
+body {
+    background-image: url("wallpaper.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 body {margin:0;
@@ -22,7 +11,7 @@ body {margin:0;
 }
 
 .button {
-    background-color: #555555; /* Black */
+    background-color: #008CBA; /* Blue */
     border: none;
     color: white;
     padding: 15px 32px;
