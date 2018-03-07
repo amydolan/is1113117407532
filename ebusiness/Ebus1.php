@@ -22,7 +22,7 @@ session_start();
 
 
     <link rel="stylesheet" href="../mystylesheet.css" type="text/css" />
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
         
         <!--jQuery-->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -95,12 +95,12 @@ session_start();
         
             <br/>
             
-            <center><button type ="submit" class="w3-button w3-green" id="btnProceed" disabled>Add to Shopping Cart</button></center>
+            <center><button type ="submit" id="btnProceed" disabled>Add to Shopping Cart</button></center>
             
         </form>
         
         <br/>
-        <center><button onClick="calcSub()" class="w3-button w3-yellow">Calculate Cost</button></center>
+        <center><button onClick="calcSub()">Calculate Cost</button></center>
         <center><a role ="button" href="Ebus1.php">Clear Choice</center>
        
     </body>

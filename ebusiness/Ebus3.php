@@ -63,8 +63,6 @@ li a:hover:not(.active) {
             //Echo session variables that were set on previous page
             echo "Thank you, " . $_SESSION["user_name"]; ?>
             <br/>
-            <?php echo "Product Purchased:" . $_SESSION["item"]; ?>
-            <br/>
             <?php echo "Subtotal: &euro;". $_SESSION["subtotal"]; ?>
             <br/>
             <?php echo "Discount: &euro;". $_SESSION["discount"]; ?>

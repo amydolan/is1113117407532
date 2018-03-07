@@ -1,29 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
 <title>Homepage</title>
 <meta charset="UTF-8">
-<link rel="stylesheet" href="homepage.css" type="text/css" />
+<link rel="stylesheet" href="mystylesheet.css" type="text/css" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<style>
+    
+    body {
+    background-image: url("wallpaper.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body {margin:0;
+      font: 20px Montserrat, sans-serif;
+      line-height: 1.8;
+      background-color:#DFECFF;
+}
+
+.button {
+    background-color: #008CBA; /* Blue */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 100px;
+  height: 100px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #FFD1DC;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: #333;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+    
+</style>
+
+<body>
   
+  <ul>
+  <li><a class="active" href="../homepage.html">Home</a></li>
+  <li><a href="../cv/cv_page1.html">CV</a></li>
+  <li><a href="../interests/sports.html">Interests</a></a></li>
+  <li><a href="../ebusiness/shophome.html">E-Business Homepage</a></li>
+</ul>
+
 
     <font color="white">
     <h3>Student Number 117407532</h3>
     <center>
     <h1>Amy Dolan</h1>
-    <br/>
     <p>IS1113 Project
     <br/>
+    <div class="container">
+    <center><a href = "https://github.com/amydolan/is1113117407532/graphs/commit-activity">
+    <img src="github.png" alt="Github Commit History" class ="image" width="100" height="100" border="0">
+    <div class="overlay">
+    <div class="text">View my Github Commit History</div>
+    </div>
+    </div></a></center>
     <br/>
-    <a href = "interests/sports.html">Interests</a>
-    <br/>
-    <a href = "cv/cv_page1.html">CV</a>
-    <br/>
-    <a href = "ebusiness/shophome.html">My Online Cloud Services Store</a>
-    <br/>
-    <a href = "https://github.com/amydolan/is1113117407532/graphs/commit-activity">Github Commit History</a>
-    <br/>
-    <a href = "https://is1113117407532.herokuapp.com">Heroku</a>
-    </center> </font>
+    <center>
+    <div class="container">
+    <center><a href = "https://is1113117407532.herokuapp.com">
+    <img src="heroku.png" alt="Heroku" class ="image" width="100" height="100" border="0">
+    <div class="overlay">
+    <div class="text">View my Heroku</div>
+    </div>
+    </div></a></center>
+    </center>
     </p>
     
 </body>
