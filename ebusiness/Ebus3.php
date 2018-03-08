@@ -54,23 +54,21 @@ li a:hover:not(.active) {
         <div id="receipt" style="text-align:center">
             <br/>
             <br/>
-            <h2>Receipt</h2>
-            
+            <h1>Receipt</h1>
+            <h3>Thank you for purchasing with Amy's Cloud Store! <br/>
+            Your receipt details the breakdown of costs. Please keep safely for further reference.</h3>
             <br/>
             <br/>
         
       <?php
             //Echo session variables that were set on previous page
-            echo "Thank you, " . $_SESSION["user_name"]; ?>
-            <br/>
-            <?php echo "Subtotal: &euro;". $_SESSION["subtotal"]; ?>
+            echo "Subtotal: &euro;". $_SESSION["subtotal"]; ?>
             <br/>
             <?php echo "Discount: &euro;". $_SESSION["discount"]; ?>
             <br/>
             <?php echo "VAT: &euro; ". $_SESSION["vat"]; ?>
             <br/>
             <?php echo "Total: &euro;". $_SESSION["total"] . "."; ?>
-            
             <br/>
             <br/>
             <button onclick="printReceipt()">Print receipt</button>

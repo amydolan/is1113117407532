@@ -7,7 +7,18 @@ session_start();
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <head></br>
     Select Product
-
+<style>
+    .button {
+    background-color: #555555; /* Black */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+</style>
 <title>Select Product</title>
 </head>
 <body background="desk.jpeg">
