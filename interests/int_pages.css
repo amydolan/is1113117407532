@@ -1,18 +1,18 @@
 #section1{
-    background-color: rgb(9, 122, 24);
+    background-color: rgb(220,255,209);
 }
 
 #section2{
-    background-color: rgb(101, 153, 255);
+    background-color: rgb(209,220,255);
 }
 
 #section3{
-    background-color: rgb(255, 153, 0);
+    background-color: rgb(255,209,220);
 }
 
 .section{
     text-align: center;
-    color: white;
+    color: black;
 }
 
 body {margin:0;
