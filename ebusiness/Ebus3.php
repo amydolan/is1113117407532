@@ -3,7 +3,7 @@
 session_start();
 ?>
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <head>
        <title>Receipt</title>
@@ -47,7 +47,7 @@ li a:hover:not(.active) {
 <ul>
   <li><a class="active" href="../homepage.html">Home</a></li>
   <li><a href="../cv/cv_page1.html">CV</a></li>
-  <li><a href="../interests/sports.html">Interests</a></a></li>
+  <li><a href="../interests/sports.html">Interests</a></li>
   <li><a href="shophome.html">E-Business Homepage</a></li>
 </ul>
         

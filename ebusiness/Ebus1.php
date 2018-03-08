@@ -3,7 +3,7 @@
 session_start();
 ?>
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <head></br>
     Select Product
@@ -12,7 +12,7 @@ session_start();
 </head>
 <body background="desk.jpeg">
     
-
+<!--Links for my menu bar-->
 <ul>
   <li><a class="active" href="../homepage.html">Home</a></li>
   <li><a href="../cv/cv_page1.html">CV</a></li>
@@ -35,7 +35,7 @@ session_start();
         <center><h3>Select a Product</h3></center>
         
         <br/>
-        
+        <!--Using radio buttons for my calculator. Labelling each product with a name and price-->
         <form method ="POST" action ="Ebus2.php">
             
             <center><label for="salesforce">
@@ -66,6 +66,8 @@ session_start();
             
             <br/>
             <br/>
+            
+            <!--Read only text boxes to display purchase information-->
 
             <center><label for="subtotal">
                 Sub Total
@@ -94,6 +96,8 @@ session_start();
             </label></center>
         
             <br/>
+            
+            <!--Buttons to calculate, clear and proceed-->
             
             <center><button type ="submit" id="btnProceed" disabled>Add to Shopping Cart</button></center>
             

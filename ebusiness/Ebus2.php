@@ -4,13 +4,14 @@ session_start();
 ?>
 
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <head>Enter Details
 <title> Enter Details</title>
 </head>
 <body background="desk.jpeg">
 
+<!--Links form my menu bar-->
 <ul>
   <li><a class="active" href="../homepage.html">Home</a></li>
   <li><a href="../cv/cv_page1.html">CV</a></li>
@@ -25,6 +26,8 @@ session_start();
     </head>
     
     <body>
+        
+        <!--Payment details being taken using textboxes-->
         
         <center><h4>Please enter your payment details below</h4></center>
         
@@ -54,6 +57,8 @@ session_start();
                 </label>
                 
                 <input type="password" id="user_pin" placeholder="****" maxlength="4"></center>
+                
+                <!--Buttons to move on-->
                     
                 <center><button type="Submit" id="btnPurchase" disabled> 
                     Proceed with Purchase 
