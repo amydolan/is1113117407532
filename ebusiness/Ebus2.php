@@ -11,7 +11,7 @@ session_start();
 </head>
 <body background="desk.jpeg">
 
-<!--Links form my menu bar-->
+<!--Links for my menu bar-->
 <ul>
   <li><a class="active" href="../homepage.html">Home</a></li>
   <li><a href="../cv/cv_page1.html">CV</a></li>
