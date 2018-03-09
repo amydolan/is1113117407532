@@ -2,11 +2,10 @@
 //Start the session
 session_start();
 ?>
-
 <!DOCTYPE html>
 <html lang="en">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <head>Enter Details
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title> Enter Details</title>
 </head>
 <body background="desk.jpeg">
@@ -25,7 +24,7 @@ session_start();
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     </head>
     
-    <body>
+   
         
         <!--Payment details being taken using textboxes-->
         

@@ -4,8 +4,9 @@ session_start();
 ?>
 <!DOCTYPE html>
 <html lang="en">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
        <title>Receipt</title>
 <style>
 body {margin:0;}
