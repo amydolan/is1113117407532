@@ -4,8 +4,12 @@ session_start();
 ?>
 <!DOCTYPE html>
 <html lang="en">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<head></br>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select Product</title>
+</head>
+<br/>
     Select Product
 <style>
     .button {
@@ -19,8 +23,7 @@ session_start();
     font-size: 16px;
 }
 </style>
-<title>Select Product</title>
-</head>
+
 <body background="desk.jpeg">
     
 <!--Links for my menu bar-->
